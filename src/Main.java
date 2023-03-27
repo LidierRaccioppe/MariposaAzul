@@ -74,7 +74,7 @@ public class Main {
                                     System.out.println(userDigi.getNombre() + " a atacado he hizo " + daño + " puntos de " +
                                             "daño neto... pero en realidad inflingio "+dañoReducido + " por la propia defensa" +
                                             " de " + enemiDigimon.getNombre() + " salvaje");
-                                    break;
+                                    
                                 case 2:
                                     //evolucionar metodo va aqui
                                     System.out.println("Ingrese en que quiere evolucionar, la primera letra en mayuscula");
@@ -101,7 +101,7 @@ public class Main {
                                     MetodosDigimon.guardarEstado(nombreArchivo, userDigi, enemiDigimon);
                                     //con esto sale del combate
                                     seguirPeleando = false;
-                                    break;
+                                    
                                 default:
                                     System.out.println("Opcion Invalida");
                                     break;
